@@ -47,6 +47,7 @@
             this.buttonRemoverProduto.TabIndex = 15;
             this.buttonRemoverProduto.Text = "Remover Produto";
             this.buttonRemoverProduto.UseVisualStyleBackColor = true;
+            this.buttonRemoverProduto.Visible = false;
             this.buttonRemoverProduto.Click += new System.EventHandler(this.buttonRemoverProduto_Click);
             // 
             // labelText
@@ -97,6 +98,7 @@
             this.buttonRemoverClientes.TabIndex = 10;
             this.buttonRemoverClientes.Text = "Remover Cliente";
             this.buttonRemoverClientes.UseVisualStyleBackColor = true;
+            this.buttonRemoverClientes.Visible = false;
             this.buttonRemoverClientes.Click += new System.EventHandler(this.buttonRemoverClientes_Click);
             // 
             // buttonPesquisarClientes
@@ -111,10 +113,13 @@
             // 
             // dgvGerenciamento
             // 
+            this.dgvGerenciamento.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvGerenciamento.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvGerenciamento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGerenciamento.Location = new System.Drawing.Point(12, 70);
             this.dgvGerenciamento.Name = "dgvGerenciamento";
             this.dgvGerenciamento.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dgvGerenciamento.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvGerenciamento.Size = new System.Drawing.Size(1016, 367);
             this.dgvGerenciamento.TabIndex = 8;
             // 

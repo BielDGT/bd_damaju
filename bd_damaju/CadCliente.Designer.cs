@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadCliente));
             this.labelAlert = new System.Windows.Forms.Label();
             this.maskedTextBoxNumero = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBoxTelefone = new System.Windows.Forms.MaskedTextBox();
@@ -239,6 +240,7 @@
             this.textBoxSenha.Location = new System.Drawing.Point(175, 143);
             this.textBoxSenha.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSenha.Name = "textBoxSenha";
+            this.textBoxSenha.PasswordChar = '*';
             this.textBoxSenha.Size = new System.Drawing.Size(281, 26);
             this.textBoxSenha.TabIndex = 40;
             // 
@@ -255,7 +257,7 @@
             // 
             // buttonAdFoto
             // 
-            this.buttonAdFoto.Location = new System.Drawing.Point(598, 265);
+            this.buttonAdFoto.Location = new System.Drawing.Point(593, 266);
             this.buttonAdFoto.Name = "buttonAdFoto";
             this.buttonAdFoto.Size = new System.Drawing.Size(112, 23);
             this.buttonAdFoto.TabIndex = 42;
@@ -265,9 +267,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(585, 115);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(563, 113);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 119);
+            this.pictureBox1.Size = new System.Drawing.Size(174, 144);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 43;
             this.pictureBox1.TabStop = false;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadProduto));
             this.buttonAdFoto = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelAlert = new System.Windows.Forms.Label();
@@ -44,12 +45,13 @@
             this.richTextBoxDesc = new System.Windows.Forms.RichTextBox();
             this.comboBoxCategoria = new System.Windows.Forms.ComboBox();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonAdFoto
             // 
-            this.buttonAdFoto.Location = new System.Drawing.Point(590, 265);
+            this.buttonAdFoto.Location = new System.Drawing.Point(592, 287);
             this.buttonAdFoto.Name = "buttonAdFoto";
             this.buttonAdFoto.Size = new System.Drawing.Size(112, 23);
             this.buttonAdFoto.TabIndex = 63;
@@ -59,9 +61,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(556, 113);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(552, 113);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 144);
+            this.pictureBox1.Size = new System.Drawing.Size(191, 168);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 62;
             this.pictureBox1.TabStop = false;
             // 
@@ -194,6 +198,7 @@
             // 
             // comboBoxCategoria
             // 
+            this.comboBoxCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCategoria.FormattingEnabled = true;
             this.comboBoxCategoria.Items.AddRange(new object[] {
             "Salgado",
@@ -207,6 +212,13 @@
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog";
+            // 
+            // mySqlCommand1
+            // 
+            this.mySqlCommand1.CacheAge = 0;
+            this.mySqlCommand1.Connection = null;
+            this.mySqlCommand1.EnableCaching = false;
+            this.mySqlCommand1.Transaction = null;
             // 
             // CadProduto
             // 
@@ -254,5 +266,6 @@
         private System.Windows.Forms.RichTextBox richTextBoxDesc;
         private System.Windows.Forms.ComboBox comboBoxCategoria;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
     }
 }

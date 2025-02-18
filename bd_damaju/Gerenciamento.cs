@@ -26,6 +26,8 @@ namespace bd_damaju
         private void buttonPesquisarClientes_Click(object sender, EventArgs e)
         {
             labelText.Text = "Clientes";
+            buttonRemoverClientes.Visible = true;
+            buttonRemoverProduto.Visible = false;
 
 
             //Defina sua string de conexão com o banco
@@ -68,6 +70,8 @@ namespace bd_damaju
         private void buttonPesquisarProduto_Click(object sender, EventArgs e)
         {
             labelText.Text = "Produto";
+            buttonRemoverProduto.Visible = true;
+            buttonRemoverClientes.Visible = false;
 
             //Defina sua string de conexão com o banco
             string connectionString = "Server=localhost; Port=3306; Database=bd_damaju; Uid=root; Pwd=;";
