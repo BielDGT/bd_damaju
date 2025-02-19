@@ -45,7 +45,6 @@
             this.richTextBoxDesc = new System.Windows.Forms.RichTextBox();
             this.comboBoxCategoria = new System.Windows.Forms.ComboBox();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -215,10 +214,9 @@
             // 
             // mySqlCommand1
             // 
-            this.mySqlCommand1.CacheAge = 0;
-            this.mySqlCommand1.Connection = null;
-            this.mySqlCommand1.EnableCaching = false;
-            this.mySqlCommand1.Transaction = null;
+
+
+
             // 
             // CadProduto
             // 
