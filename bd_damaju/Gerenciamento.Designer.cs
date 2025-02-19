@@ -44,7 +44,7 @@
             this.buttonRemoverProduto.Location = new System.Drawing.Point(352, 41);
             this.buttonRemoverProduto.Name = "buttonRemoverProduto";
             this.buttonRemoverProduto.Size = new System.Drawing.Size(103, 23);
-            this.buttonRemoverProduto.TabIndex = 15;
+            this.buttonRemoverProduto.TabIndex = 4;
             this.buttonRemoverProduto.Text = "Remover Produto";
             this.buttonRemoverProduto.UseVisualStyleBackColor = true;
             this.buttonRemoverProduto.Visible = false;
@@ -64,7 +64,7 @@
             this.buttonPesquisarProduto.Location = new System.Drawing.Point(352, 13);
             this.buttonPesquisarProduto.Name = "buttonPesquisarProduto";
             this.buttonPesquisarProduto.Size = new System.Drawing.Size(97, 23);
-            this.buttonPesquisarProduto.TabIndex = 13;
+            this.buttonPesquisarProduto.TabIndex = 3;
             this.buttonPesquisarProduto.Text = "Produto";
             this.buttonPesquisarProduto.UseVisualStyleBackColor = true;
             this.buttonPesquisarProduto.Click += new System.EventHandler(this.buttonPesquisarProduto_Click);
@@ -74,7 +74,7 @@
             this.buttonClose.Location = new System.Drawing.Point(455, 13);
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(75, 23);
-            this.buttonClose.TabIndex = 12;
+            this.buttonClose.TabIndex = 5;
             this.buttonClose.Text = "Fechar";
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
@@ -95,7 +95,7 @@
             this.buttonRemoverClientes.Location = new System.Drawing.Point(238, 41);
             this.buttonRemoverClientes.Name = "buttonRemoverClientes";
             this.buttonRemoverClientes.Size = new System.Drawing.Size(107, 23);
-            this.buttonRemoverClientes.TabIndex = 10;
+            this.buttonRemoverClientes.TabIndex = 2;
             this.buttonRemoverClientes.Text = "Remover Cliente";
             this.buttonRemoverClientes.UseVisualStyleBackColor = true;
             this.buttonRemoverClientes.Visible = false;
@@ -106,7 +106,7 @@
             this.buttonPesquisarClientes.Location = new System.Drawing.Point(238, 13);
             this.buttonPesquisarClientes.Name = "buttonPesquisarClientes";
             this.buttonPesquisarClientes.Size = new System.Drawing.Size(107, 23);
-            this.buttonPesquisarClientes.TabIndex = 9;
+            this.buttonPesquisarClientes.TabIndex = 1;
             this.buttonPesquisarClientes.Text = "Clientes";
             this.buttonPesquisarClientes.UseVisualStyleBackColor = true;
             this.buttonPesquisarClientes.Click += new System.EventHandler(this.buttonPesquisarClientes_Click);

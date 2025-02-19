@@ -17,11 +17,7 @@ namespace bd_damaju
             InitializeComponent();
         }
 
-        private void buttonCadCliente_Click(object sender, EventArgs e)
-        {
-            CadCliente form = new CadCliente();
-            form.ShowDialog();
-        }
+
 
         private void buttonCadProduto_Click(object sender, EventArgs e)
         {

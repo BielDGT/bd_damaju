@@ -98,12 +98,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CadCliente.Designer.cs">
-      <DependentUpon>CadCliente.cs</DependentUpon>
-    </Compile>
     <Compile Include="CadProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,11 +116,14 @@
     <Compile Include="Gerenciamento.Designer.cs">
       <DependentUpon>Gerenciamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CadCliente.resx">
-      <DependentUpon>CadCliente.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CadProduto.resx">
       <DependentUpon>CadProduto.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gerenciamento.resx">
       <DependentUpon>Gerenciamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

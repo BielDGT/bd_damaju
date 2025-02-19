@@ -53,7 +53,7 @@
             this.buttonAdFoto.Location = new System.Drawing.Point(592, 287);
             this.buttonAdFoto.Name = "buttonAdFoto";
             this.buttonAdFoto.Size = new System.Drawing.Size(112, 23);
-            this.buttonAdFoto.TabIndex = 63;
+            this.buttonAdFoto.TabIndex = 5;
             this.buttonAdFoto.Text = "Adicionar Foto";
             this.buttonAdFoto.UseVisualStyleBackColor = true;
             this.buttonAdFoto.Click += new System.EventHandler(this.buttonAdFoto_Click);
@@ -85,7 +85,7 @@
             this.maskedTextBoxValor.Mask = "$000.00";
             this.maskedTextBoxValor.Name = "maskedTextBoxValor";
             this.maskedTextBoxValor.Size = new System.Drawing.Size(281, 26);
-            this.maskedTextBoxValor.TabIndex = 55;
+            this.maskedTextBoxValor.TabIndex = 2;
             // 
             // buttonClose
             // 
@@ -94,7 +94,7 @@
             this.buttonClose.Margin = new System.Windows.Forms.Padding(2);
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(211, 30);
-            this.buttonClose.TabIndex = 54;
+            this.buttonClose.TabIndex = 8;
             this.buttonClose.Text = "Fechar";
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
@@ -106,7 +106,7 @@
             this.buttonClear.Margin = new System.Windows.Forms.Padding(2);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(211, 30);
-            this.buttonClear.TabIndex = 53;
+            this.buttonClear.TabIndex = 7;
             this.buttonClear.Text = "Limpar Campos";
             this.buttonClear.UseVisualStyleBackColor = true;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
@@ -118,7 +118,7 @@
             this.buttonCad.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCad.Name = "buttonCad";
             this.buttonCad.Size = new System.Drawing.Size(211, 30);
-            this.buttonCad.TabIndex = 52;
+            this.buttonCad.TabIndex = 6;
             this.buttonCad.Text = "Cadastrar";
             this.buttonCad.UseVisualStyleBackColor = true;
             this.buttonCad.Click += new System.EventHandler(this.buttonCad_Click);
@@ -163,7 +163,7 @@
             this.textBoxNomeProduto.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNomeProduto.Name = "textBoxNomeProduto";
             this.textBoxNomeProduto.Size = new System.Drawing.Size(281, 26);
-            this.textBoxNomeProduto.TabIndex = 45;
+            this.textBoxNomeProduto.TabIndex = 1;
             // 
             // label2
             // 
@@ -192,7 +192,7 @@
             this.richTextBoxDesc.Location = new System.Drawing.Point(167, 248);
             this.richTextBoxDesc.Name = "richTextBoxDesc";
             this.richTextBoxDesc.Size = new System.Drawing.Size(281, 96);
-            this.richTextBoxDesc.TabIndex = 64;
+            this.richTextBoxDesc.TabIndex = 4;
             this.richTextBoxDesc.Text = "";
             // 
             // comboBoxCategoria
@@ -206,17 +206,11 @@
             this.comboBoxCategoria.Location = new System.Drawing.Point(167, 207);
             this.comboBoxCategoria.Name = "comboBoxCategoria";
             this.comboBoxCategoria.Size = new System.Drawing.Size(281, 21);
-            this.comboBoxCategoria.TabIndex = 65;
+            this.comboBoxCategoria.TabIndex = 3;
             // 
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog";
-            // 
-            // mySqlCommand1
-            // 
-
-
-
             // 
             // CadProduto
             // 

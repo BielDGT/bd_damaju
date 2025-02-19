@@ -33,7 +33,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonClose = new System.Windows.Forms.Button();
             this.buttonGerenciar = new System.Windows.Forms.Button();
-            this.buttonCadCliente = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -41,11 +40,11 @@
             // buttonCadProduto
             // 
             this.buttonCadProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadProduto.Location = new System.Drawing.Point(458, 169);
+            this.buttonCadProduto.Location = new System.Drawing.Point(466, 95);
             this.buttonCadProduto.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCadProduto.Name = "buttonCadProduto";
             this.buttonCadProduto.Size = new System.Drawing.Size(230, 59);
-            this.buttonCadProduto.TabIndex = 17;
+            this.buttonCadProduto.TabIndex = 1;
             this.buttonCadProduto.Text = "Cadastro de Produto";
             this.buttonCadProduto.UseVisualStyleBackColor = true;
             this.buttonCadProduto.Click += new System.EventHandler(this.buttonCadProduto_Click);
@@ -64,11 +63,11 @@
             // buttonClose
             // 
             this.buttonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonClose.Location = new System.Drawing.Point(458, 328);
+            this.buttonClose.Location = new System.Drawing.Point(466, 254);
             this.buttonClose.Margin = new System.Windows.Forms.Padding(2);
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(230, 59);
-            this.buttonClose.TabIndex = 15;
+            this.buttonClose.TabIndex = 3;
             this.buttonClose.Text = "Fechar";
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
@@ -76,26 +75,14 @@
             // buttonGerenciar
             // 
             this.buttonGerenciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGerenciar.Location = new System.Drawing.Point(458, 253);
+            this.buttonGerenciar.Location = new System.Drawing.Point(466, 179);
             this.buttonGerenciar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGerenciar.Name = "buttonGerenciar";
             this.buttonGerenciar.Size = new System.Drawing.Size(230, 59);
-            this.buttonGerenciar.TabIndex = 13;
+            this.buttonGerenciar.TabIndex = 2;
             this.buttonGerenciar.Text = "Gerenciamento";
             this.buttonGerenciar.UseVisualStyleBackColor = true;
             this.buttonGerenciar.Click += new System.EventHandler(this.buttonGerenciar_Click);
-            // 
-            // buttonCadCliente
-            // 
-            this.buttonCadCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadCliente.Location = new System.Drawing.Point(458, 88);
-            this.buttonCadCliente.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonCadCliente.Name = "buttonCadCliente";
-            this.buttonCadCliente.Size = new System.Drawing.Size(230, 59);
-            this.buttonCadCliente.TabIndex = 12;
-            this.buttonCadCliente.Text = "Cadastrar Cliente";
-            this.buttonCadCliente.UseVisualStyleBackColor = true;
-            this.buttonCadCliente.Click += new System.EventHandler(this.buttonCadCliente_Click);
             // 
             // label1
             // 
@@ -117,7 +104,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonGerenciar);
-            this.Controls.Add(this.buttonCadCliente);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -133,7 +119,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonClose;
         private System.Windows.Forms.Button buttonGerenciar;
-        private System.Windows.Forms.Button buttonCadCliente;
         private System.Windows.Forms.Label label1;
     }
 }
